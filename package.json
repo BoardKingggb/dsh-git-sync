@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "@sanzhihema/dsh-git-sync",
   "description": "Per-session opt-in multi-device sync of DeepSeek Harness sessions and memory over git (GitHub). Turn on a session, set a remote, and it syncs automatically across devices.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publishConfig": {
     "access": "public"
   },
@@ -72,3 +72,4 @@
     "@deepseek-ai/dsh-settings": { "optional": true }
   }
 }
+
