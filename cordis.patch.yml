@@ -1,0 +1,13 @@
+# Bundle patch layer: one install pulls both the host plugin and its settings
+# card (the card package is a dependency, so both rows load together).
+- insert:
+    - id: git-sync
+      name: '@sanzhihema/dsh-git-sync'
+      config:
+        enabled: false
+        remoteUrl: ''
+        branch: main
+        intervalMinutes: 10
+        autoCreateRepo: false
+    - id: ui-git-sync
+      name: '@sanzhihema/dsh-client-ui-git-sync'
