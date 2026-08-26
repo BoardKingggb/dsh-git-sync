@@ -1,0 +1,6 @@
+# Bundle patch layer (standalone use): the row loads the package's no-op host
+# half; when installed through dsh-git-sync the host patch already inserts this
+# row, so a standalone row is only a fallback.
+- insert:
+    - id: ui-git-sync
+      name: '@sanzhihema/dsh-client-ui-git-sync'

@@ -1,0 +1,58 @@
+/** `gitSync` namespace dictionaries (the settings card copy). */
+/** Dictionary namespace owned by this plugin. */
+export const NS = 'gitSync';
+/** Simplified Chinese dictionary (the key-set source of truth). */
+export const zh = {
+    'card.title': 'Git 同步 (dsh-git-sync)',
+    'card.description': '多设备共享会话/记忆的开关与仓库配置。',
+    'field.enabled': '总开关',
+    'field.remoteUrl': 'GitHub 仓库',
+    'field.remoteUrlHint': '如 git@github.com:<账号>/<仓库>.git 或 https 地址',
+    'field.branch': '分支',
+    'field.intervalMinutes': '同步间隔(分钟，0=仅手动)',
+    'field.autoCreateRepo': '首次自动建仓',
+    'action.save': '保存',
+    'action.saving': '保存中…',
+    'action.discard': '放弃',
+    'action.login': '登录 GitHub',
+    'action.refreshStatus': '检查状态',
+    'auth.status': 'GitHub 登录状态',
+    'auth.status.logged-in': '已登录',
+    'auth.status.not-logged-in': '未登录',
+    'auth.status.unknown': '状态未知',
+    'auth.status.opening': '正在打开浏览器登录…',
+    'auth.hint': '登录会打开浏览器并授权 Git Credential Manager，完成后自动保存凭据。',
+    'state.readOnly': '当前文档不可写。',
+    'state.saveFailed': '保存失败，请重试。',
+    'state.unsaved': '有未保存的修改',
+    'state.collapse': '折叠',
+    'state.expand': '展开',
+};
+/** English dictionary, key-identical to the Chinese source of truth. */
+export const en = {
+    'card.title': 'Git Sync (dsh-git-sync)',
+    'card.description': 'Per-session multi-device sync of sessions/memory via git.',
+    'field.enabled': 'Enabled',
+    'field.remoteUrl': 'GitHub remote',
+    'field.remoteUrlHint': 'e.g. git@github.com:<owner>/<repo>.git or https URL',
+    'field.branch': 'Branch',
+    'field.intervalMinutes': 'Sync interval (minutes, 0 = manual only)',
+    'field.autoCreateRepo': 'Auto-create repo on first sync',
+    'action.save': 'Save',
+    'action.saving': 'Saving…',
+    'action.discard': 'Discard',
+    'action.login': 'Sign in with GitHub',
+    'action.refreshStatus': 'Check status',
+    'auth.status': 'GitHub auth',
+    'auth.status.logged-in': 'Signed in',
+    'auth.status.not-logged-in': 'Not signed in',
+    'auth.status.unknown': 'Unknown',
+    'auth.status.opening': 'Opening browser login…',
+    'auth.hint': 'Opens the browser to authorize Git Credential Manager; the credential is stored automatically.',
+    'state.readOnly': 'The settings document is not writable.',
+    'state.saveFailed': 'Save failed; please retry.',
+    'state.unsaved': 'Unsaved changes',
+    'state.collapse': 'Collapse',
+    'state.expand': 'Expand',
+};
+//# sourceMappingURL=locales.js.map
